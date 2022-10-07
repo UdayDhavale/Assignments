@@ -28,22 +28,22 @@ protocol and domain name -- that tell a web browser how and where to retrieve a 
 PARTS OF A URL
 Using the URL https://www.techtarget.com/whatis/search/query?q=URL as an example, components of a URL can include:
 
-The protocol or scheme. Used to access a resource on the internet. Protocols include http, https, ftps, mailto and file.
+1.The protocol or scheme. Used to access a resource on the internet. Protocols include http, https, ftps, mailto and file.
 The resource is reached through the domain name system (DNS) name. In this example, the protocol is https.
 
-Host name or domain name. The unique reference the represents a webpage. For this example, whatis.techtarget.com.
+2.Host name or domain name. The unique reference the represents a webpage. For this example, whatis.techtarget.com.
 
-Port name. Usually not visible in URLs, but necessary. Always following a colon, port 80 is the default port for web servers,
+3.Port name. Usually not visible in URLs, but necessary. Always following a colon, port 80 is the default port for web servers,
 but there are other options. For example, :port80.
 
-Path. A path refers to a file or location on the web server. For this example, search/query.
+4.Path. A path refers to a file or location on the web server. For this example, search/query.
 
-Query. Found in the URL of dynamic pages. The query consists of a question mark, followed by parameters. For this example, ?.
+5.Query. Found in the URL of dynamic pages. The query consists of a question mark, followed by parameters. For this example, ?.
 
-Parameters. Pieces of information in a query string of a URL. Multiple parameters can be separated by ampersands (&).
+6.Parameters. Pieces of information in a query string of a URL. Multiple parameters can be separated by ampersands (&).
 For this example, q=URL.
 
-Fragment. This is an internal page reference, which refers to a section within the webpage. 
+7.Fragment. This is an internal page reference, which refers to a section within the webpage. 
 It appears at the end of a URL and begins with a hashtag (#). 
 Although not in the example above, an example could be #history in the URL https://en.wikipedia.org/wiki/Internet#History.
 
